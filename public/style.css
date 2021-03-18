@@ -17,7 +17,7 @@ h1 {
 
 
 p{
-  font-sytle: comic
+  font:
 }
 #readmore {
   display: none;
@@ -26,3 +26,70 @@ p{
 #welcomeuser {
   display: none;
 }
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    background-color: #708090;
+    line-height: 125%;
+
+}
+
+h1,
+h2 {
+    color: azure;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    color: blueviolet
+}
+
+h {
+    font-size: 2em;
+
+}
+
+p1 {
+    font-size: 1.35em;
+    font: italic;
+    color: black;
+}
+
+p{
+    font-size: 1.35em;
+    font: italic;
+    color: white;
+}
+
+p2{
+  font-size: 1.35em;
+    font: italic;
+    color: white;
+  
+}
+
+
+img {
+
+    align-content: center;
+}
+
+
+
+a {
+    color: white;
+    align-items: center;
+}
+
+
+
+
