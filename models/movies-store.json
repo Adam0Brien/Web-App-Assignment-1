@@ -3,56 +3,56 @@
     {
       "id": "01",
       "title": "Star Wars OG Trilogy",
-      "duration": 35,
+      "duration": 388,
       "films": [
         {
           "id": "04",
           "title": "A New Hope",
           "artist": "George Lucas",
           "genre": "Sci Fi",
-          "duration": ""
+          "duration": "125"
         },
         {
           "id": "05",
           "title": "Empire Strikes Back",
           "artist": "Irvin Kershner",
           "genre": "Sci Fi",
-          "duration": "10"
+          "duration": "127"
         },
         {
           "id": "06",
-          "title": "Piano Sonata No. 10",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": "8"
+          "title": "Return Of the Jedi",
+          "artist": "Richard Marquand",
+          "genre": "Sci Fi",
+          "duration": "136"
         }
       ]
     },
     {
       "id": "02",
-      "title": "Beethoven Concertos",
-      "duration": 23,
+      "title": "Star Wars Prequel Trilogy",
+      "duration": 421,
       "films": [
         {
           "id": "07",
-          "title": "Piano Concerto No. 0",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 8
+          "title": "The Phantom Menace",
+          "artist": "George Lucas",
+          "genre": "Sci Fi",
+          "duration": 133
         },
         {
           "id": "08",
-          "title": "Piano Concerto No. 4",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 3
+          "title": "Attack of the Clones",
+          "artist": "George Lucas",
+          "genre": "Sci Fi",
+          "duration": 142
         },
         {
           "id": "09",
-          "title": "Piano Concerto No. 6",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 4
+          "title": "Revenge of the Sith",
+          "artist": "George Lucas",
+          "genre": "Sci Fi",
+          "duration": 146
         }
       ]
     }
