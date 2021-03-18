@@ -14,7 +14,6 @@ const movies = require('./controllers/movies.js');
 router.get('/', start.index);
 router.get('/dashboard', dashboard.index);
 router.get('/about', about.index);
-
 router.get('/movies/:id', movies.index);
 
 router.get('/movies/:id/deleteFilm/:filmid', movies.deleteFilm);
