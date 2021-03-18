@@ -4,7 +4,7 @@
 const logger = require('../utils/logger');
 const uuid = require('uuid');
 
-const moviesStore = require('../models/movies-Store.js');
+const moviesStore = require('../models/movies-store.js');
 
 // create dashboard object
 const dashboard = {

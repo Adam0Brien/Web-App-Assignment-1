@@ -2,7 +2,7 @@
 
 const logger = require('../utils/logger');
 const uuid = require('uuid');
-const moviesStore = require('../models/movies-Store');
+const moviesStore = require('../models/movies-store');
 
 const movies = {
   index(request, response) {

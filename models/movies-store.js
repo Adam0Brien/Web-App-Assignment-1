@@ -5,7 +5,7 @@ const JsonStore = require('./json-store');
 
 const moviesStore = {
 
-  store: new JsonStore('./models/movies-Store.json', { moviesCollection: [] }),
+  store: new JsonStore('./models/movies-store.json', { moviesCollection: [] }),
   collection: 'moviesCollection',
 
   getAllMoviess() {

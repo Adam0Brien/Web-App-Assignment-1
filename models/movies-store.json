@@ -2,21 +2,21 @@
   "moviesCollection": [
     {
       "id": "01",
-      "title": "Beethoven Sonatas",
+      "title": "Star Wars OG Trilogy",
       "duration": 35,
       "films": [
         {
           "id": "04",
-          "title": "Piano Sonata ",
-          "artist": "Ros",
-          "genre": "Classical",
-          "duration": "15"
+          "title": "A New Hope",
+          "artist": "George Lucas",
+          "genre": "Sci Fi",
+          "duration": ""
         },
         {
           "id": "05",
-          "title": "Piano Sonata No. 7",
-          "artist": "Mozart",
-          "genre": "Classical",
+          "title": "Empire Strikes Back",
+          "artist": "Irvin Kershner",
+          "genre": "Sci Fi",
           "duration": "10"
         },
         {
@@ -55,27 +55,7 @@
           "duration": 4
         }
       ]
-    },
-    {
-      "id": "03",
-      "title": "Beethoven Variations",
-      "duration": 67,
-      "films": [
-        {
-          "id": "10",
-          "title": "Opus 34: Six variations on a theme in F major",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 11
-        },
-        {
-          "id": "11",
-          "title": "Opus 120: Thirty-three variations on a waltz by Diabelli in C majo",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 45
-        }
-      ]
     }
+
   ]
 }
