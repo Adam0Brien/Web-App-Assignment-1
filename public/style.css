@@ -3,7 +3,7 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
-  
+  line-height: 125%;
   background-image :url("https://cdn.glitch.com/ad89156a-8c6c-404b-95d3-4ccbe89a0d4f%2F3LBX9VI.jpg?v=1616094573325");
   background-position: center;
   
@@ -35,10 +35,6 @@ html {
     height: 100%;
 }
 
-body {
-    font-family: Verdana, Helvetica, Arial, sans-serif;
-    background-color: #708090;
-    line-height: 125%;
 
 }
 
@@ -46,12 +42,7 @@ h1,
 h2 {
     color: azure;
     text-align: center;
-    background-
-}
-
-header {
-    text-align: center;
-    color: blueviolet
+    
 }
 
 h {
