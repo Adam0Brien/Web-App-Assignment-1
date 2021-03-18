@@ -1,0 +1,28 @@
+{
+  "moviesCollection": [
+    {
+      "id": "7f65500d-c6da-4986-8a64-51a71509d3d6",
+      "title": "Star Wars",
+      "duration": "100",
+      "songs": []
+    },
+    {
+      "id": "c2cf194f-ca78-43dc-b7e7-f2fd67b9420e",
+      "title": "Shrek Movies",
+      "duration": "293",
+      "songs": []
+    },
+    {
+      "id": "75670e6c-e919-4baf-8b45-bac3c20db3fb",
+      "title": "Disney Princesses",
+      "duration": "540",
+      "songs": []
+    },
+    {
+      "id": "f1e00cc2-f3f9-4fc9-977a-abef718658f3",
+      "title": "Test No.1",
+      "duration": "101",
+      "songs": []
+    }
+  ]
+}

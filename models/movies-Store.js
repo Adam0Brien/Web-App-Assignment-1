@@ -5,7 +5,7 @@ const JsonStore = require('./json-store');
 
 const moviesStore = {
 	
-  store: new JsonStore('./models/movies-store.json', { moviesCollection: [] }),
+  store: new JsonStore('./models/movies-Store.json', { moviesCollection: [] }),
   collection: 'moviesCollection',
 
   getAllMovies() {
@@ -15,7 +15,7 @@ const moviesStore = {
   getMovies(id) {
     return this.store.findOneBy(this.collection, { id: id });
   },
-
+//
   addMovies(movies) {
     this.store.add(this.collection, movies);
   },
@@ -31,7 +31,7 @@ const moviesStore = {
 
   addFilm(id, film) {
     const movies = this.getMovies(id);
-    movies.films.push(film);
+   movies.films.push(film);
   },
 
   removeFilm(id, filmId) {

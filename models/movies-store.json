@@ -1,16 +1,10 @@
 {
   "moviesCollection": [
     {
-      "id": "59428b18-d2af-4ed2-b9af-3594ce4a4db8",
-      "title": "test",
-      "duration": "1",
-      "songs": []
-    },
-    {
-      "id": "98f811c5-ffee-4afd-8359-630e7b701f54",
-      "title": "Test 2",
-      "duration": "2",
-      "songs": []
+      "id": "ec334433-1612-4e78-b45b-6f33168b852a",
+      "title": "Movies",
+      "duration": "10",
+      "movies": []
     }
   ]
 }
