@@ -4,9 +4,10 @@ body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
   
-  background-image :url("https://cdn.glitch.com/ad89156a-8c6c-404b-95d3-4ccbe89a0d4f%2Fdisney.jfif?v=1616094118089");
-   background-position: center;
-  background-repeat: no-repeat;
+  background-image :url("https://cdn.glitch.com/ad89156a-8c6c-404b-95d3-4ccbe89a0d4f%2F3LBX9VI.jpg?v=1616094573325");
+  background-position: center;
+  
+  background-size: cover;
 }
 
 h1 {
