@@ -2,7 +2,7 @@
 
 const logger = require('../utils/logger');
 const uuid = require('uuid');
-const moviesStore = require('../models/movies-store');
+const moviesStore = require('../models/movies-Store');
 
 const movies = {
   index(request, response) {
@@ -12,7 +12,7 @@ const movies = {
       title: 'Movies',
       movies: moviesStore.getMovies(moviesId),
     };
-    logger.info('about to render', viewData.movies);
+    //logger.info('about to render', viewData.movies);
     response.render('movies', viewData);
   },
     deleteFilm(request, response) {
