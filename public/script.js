@@ -22,7 +22,7 @@ function welcomeUser() {
   let username = prompt("What's your name?");
   let welcomeUserDiv = document.getElementById("welcomeuser");
   welcomeUserDiv.style.display = "block";
-  document.getElementById('welcomeuser').innerHTML = '<p> Hello, ' + username + ', looking forward to hearing your playlists! Click this message to close it.</p>';
+  document.getElementById('welcomeuser').innerHTML = '<p> Thats crazy, ' + username + ', but i dont remember asking</p>';
   welcomeUserDiv.style.cursor = "pointer";
 }
 
