@@ -1,21 +1,21 @@
 <table class="ui fixed striped table">
   <thead>
     <tr>
-      <th>Song</th>
-      <th>Artist</th>
+      <th>Film</th>
+      <th>Director</th>
       <th>Genre</th>
       <th>Duration</th>
       <th> </th>
     </tr>
   </thead>
   <tbody>
-    {{#each playlist.songs}}
+    {{#each movies.films}}
       <tr>
         <td>
           {{title}}
         </td>
         <td>
-          {{artist}}
+          {{director}}
         </td>
         <td>
           {{genre}}
@@ -24,7 +24,7 @@
           {{duration}}
         </td>
         <td>
-          <a href="/playlist/{{../playlist.id}}/deletesong/{{id}}" class="ui icon button">
+          <a href="/movies/{{../movies.id}}/deletefilm/{{id}}" class="ui icon button">
             <i class="icon trash"></i>
           </a>
         </td>
