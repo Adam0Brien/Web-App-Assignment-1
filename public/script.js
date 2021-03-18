@@ -5,7 +5,7 @@
 console.log("Hello from the Web App Dev 1 lab!");
 
 function likeIt(){
-  alert('Thanks! You\'re okay too');
+  alert('Thanks! more of a friend to me :)');
 }
 
 function showHide() {
