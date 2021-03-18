@@ -12,7 +12,6 @@ const movies = {
       title: 'Movies',
       movies: moviesStore.getMovies(moviesId),
     };
-    //logger.info('about to render', viewData.movies);
     response.render('movies', viewData);
   },
     deleteFilm(request, response) {
@@ -28,13 +27,26 @@ const movies = {
     const newFilm = {
       id: uuid(),
       title: request.body.title,
-      director: request.body.director,
+      directors: request.body.directors,
       genre: request.body.genre,
       duration: request.body.duration
     };
     moviesStore.addFilm(moviesId, newFilm);
     response.redirect('/movies/' + moviesId);
-  },
+  },  
+  updateFilm(request, response) {
+    const moviesId = request.params.id;
+    const filmId = request.params.filmid;
+    logger.debug("updating film " + filmId);
+    const updatedFilm = {
+      title: request.body.title,
+      directors: request.body.directors,
+      genre: request.body.genre,
+      duration: request.body.duration
+    };
+    moviesStore.editFilm(moviesId, filmId, updatedFilm);
+    response.redirect('/movies/' + moviesId);
+  }
 };
 
 module.exports = movies;
