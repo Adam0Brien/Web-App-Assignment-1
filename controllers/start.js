@@ -4,7 +4,7 @@
 const logger = require('../utils/logger');
 
 // create start object
-const start = {
+const start = {	
   
   // index method - responsible for creating and rendering the view
   index(request, response) {
@@ -14,7 +14,7 @@ const start = {
     
     // create view data object (contains data to be sent to the view e.g. page title)
     const viewData = {
-      title: 'Welcome to the Playlist App!',
+      title: 'Welcome to the Movies App!',
     };
     
     // render the start view and pass through the data

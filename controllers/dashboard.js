@@ -1,10 +1,10 @@
 'use strict';
 
 // import all required modules
-const logger = require('../utils/logger');
+const logger = require('../utils/logger');	
 const uuid = require('uuid');
 
-const playlistStore = require('../models/playlist-store.js');
+const moviesStore = require('../models/movies-Store.js');
 
 // create dashboard object
 const dashboard = {
@@ -14,33 +14,33 @@ const dashboard = {
     
     // display confirmation message in log
     logger.info('dashboard rendering');
-    
+    	
     // create view data object (contains data to be sent to the view e.g. page title)
     const viewData = {
-      title: 'Playlist App Dashboard',
-      playlists: playlistStore.getAllPlaylists(),
+      title: 'Movies App Dashboard',
+      moviess: moviesStore.getAllMoviess(),
     };
     
     // render the dashboard view and pass through the data
-    logger.info('about to render', viewData.playlists);
+    logger.info('about to render', viewData.moviess);
     response.render('dashboard', viewData);
   },
   
-  deletePlaylist(request, response) {
-    const playlistId = request.params.id;
-    logger.debug(`Deleting Playlist ${playlistId}`);
-    playlistStore.removePlaylist(playlistId);
+  deleteMovies(request, response) {
+    const moviesId = request.params.id;
+    logger.debug(`Deleting Movies ${moviesId}`);
+    moviesStore.removeMovies(moviesId);
     response.redirect('/dashboard');
   },
   
-  addPlaylist(request, response) {
-    const newPlayList = {
+  addMovies(request, response) {
+    const newMovies = {
       id: uuid(),
       title: request.body.title,
       duration: request.body.duration,
       songs: [],
     };
-    playlistStore.addPlaylist(newPlayList);
+    moviesStore.addMovies(newMovies);
     response.redirect('/dashboard');
   },
 };
