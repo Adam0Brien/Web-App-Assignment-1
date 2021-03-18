@@ -1,7 +1,13 @@
 {
   "moviesCollection": [
     {
-      "id": "ec334433-1612-4e78-b45b-6f33168b852a",
+      "id": "7c987995-2779-48dc-905a-a4efba198054",
+      "title": "Movies",
+      "duration": "10",
+      "songs": []
+    },
+    {
+      "id": "de99b09b-6dfc-4b65-bc69-7d6f943ca3be",
       "title": "Movies",
       "duration": "10",
       "songs": []
