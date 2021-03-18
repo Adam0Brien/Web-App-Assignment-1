@@ -8,21 +8,21 @@
         {
           "id": "04",
           "title": "A New Hope",
-          "artist": "George Lucas",
+          "director": "George Lucas",
           "genre": "Sci Fi",
           "duration": "125"
         },
         {
           "id": "05",
           "title": "Empire Strikes Back",
-          "artist": "Irvin Kershner",
+          "director": "Irvin Kershner",
           "genre": "Sci Fi",
           "duration": "127"
         },
         {
           "id": "06",
           "title": "Return Of the Jedi",
-          "artist": "Richard Marquand",
+          "director": "Richard Marquand",
           "genre": "Sci Fi",
           "duration": "136"
         }
@@ -36,21 +36,21 @@
         {
           "id": "07",
           "title": "The Phantom Menace",
-          "artist": "George Lucas",
+          "director": "George Lucas",
           "genre": "Sci Fi",
           "duration": 133
         },
         {
           "id": "08",
           "title": "Attack of the Clones",
-          "artist": "George Lucas",
+          "director": "George Lucas",
           "genre": "Sci Fi",
           "duration": 142
         },
         {
           "id": "09",
           "title": "Revenge of the Sith",
-          "artist": "George Lucas",
+          "director": "George Lucas",
           "genre": "Sci Fi",
           "duration": 146
         }
