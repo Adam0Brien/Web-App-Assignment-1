@@ -1,7 +1,7 @@
 'use strict';
 
 // import all required modules
-const logger = require('../utils/logger');	
+const logger = require('../utils/logger');
 const uuid = require('uuid');
 
 const moviesStore = require('../models/movies-Store.js');
@@ -14,15 +14,15 @@ const dashboard = {
     
     // display confirmation message in log
     logger.info('dashboard rendering');
-    	
+    
     // create view data object (contains data to be sent to the view e.g. page title)
     const viewData = {
       title: 'Movies App Dashboard',
-      movies: moviesStore.getAllMovies(),
+      moviess: moviesStore.getAllMoviess(),
     };
     
     // render the dashboard view and pass through the data
-    logger.info('about to render', viewData.movies);
+    logger.info('about to render', viewData.moviess);
     response.render('dashboard', viewData);
   },
   
@@ -38,7 +38,7 @@ const dashboard = {
       id: uuid(),
       title: request.body.title,
       duration: request.body.duration,
-      songs: [],
+      films: [],
     };
     moviesStore.addMovies(newMovies);
     response.redirect('/dashboard');

@@ -45,7 +45,7 @@ const moviesStore = {
     const films = movies.films;
     const index = films.findIndex(film => film.id === filmId);
     films[index].title = updatedFilm.title;
-    films[index].director = updatedFilm.director;
+    films[index].artist = updatedFilm.artist;
     films[index].genre = updatedFilm.genre;
     films[index].duration = updatedFilm.duration;
   }
