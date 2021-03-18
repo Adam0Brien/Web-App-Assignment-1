@@ -1,13 +1,13 @@
 'use strict';
 
-const developerStore = {
+const characterStore = {
 
-  developers: require('./developer-store.json').developers,
+  characters: require('./character-store.json').characters,
 
-  getAllDevelopers() {
-    return this.developers;
+  getAllCharacters() {
+    return this.characters;
   },
 
 };
 
-module.exports = developerStore;
+module.exports = characterStore;
