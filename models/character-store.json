@@ -4,29 +4,29 @@
       "name":"Obi Wan",
       "fullname":"Obi Wan Kenobi",
       "image":"https://cdn.glitch.com/ad89156a-8c6c-404b-95d3-4ccbe89a0d4f%2FLE_Obi-Wan_Kenobi_Commander_Expansion.png?v=1616094800532",
-      "joined":1999,
+      "appeared":"The Phantom Menace",
       "job":"Jedi",
       "location":"Coruscant",
-      "mates":57
+      "death":57
       
     },
     {
        "name":"Vader",
       "fullname":"Darth Vader",
       "image":"https://cdn.glitch.com/ad89156a-8c6c-404b-95d3-4ccbe89a0d4f%2Fdownload%20(3).jfif?v=1616095121138",
-      "joined":1977,
+      "appeared":"Revenge of the Sith",
       "job":"Sith Lord",
       "location":"Death Star",
-      "mates":45
+      "death":45
     },
     {
       "name":"Yoda",
       "fullname":"Grand Master Yoda",
       "image":"https://cdn.glitch.com/ad89156a-8c6c-404b-95d3-4ccbe89a0d4f%2FYoda-010.jpg?v=1616094971481",
-      "joined":1980,
+      "appeared":"The Phantom Menace",
       "job":"Jedi",
       "location":"Coruscant",
-      "mates":900
+      "death":900
     }
   ]
 }
