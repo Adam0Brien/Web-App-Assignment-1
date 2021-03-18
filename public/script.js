@@ -46,4 +46,8 @@ function getRating() {
   }
 }
 
+$('.autumn.leaf')
+  .transition('slide left')
+;
+
 //update test
