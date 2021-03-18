@@ -1,15 +1,6 @@
 {"characters":
   [
     {
-      "name":"Vader",
-      "fullname":"Darth Vader",
-      "image":"https://cdn.glitch.com/7435e8d3-a4cc-4944-ba05-d703398351be%2Fstevie.jpg?1554913157488",
-      "joined":2016,
-      "job":"Web Developer",
-      "city":"Boston",
-      "mates":35
-    },
-    {
       "name":"Obi Wan",
       "fullname":"Obi Wan Kenobi",
       "image":"https://cdn.glitch.com/ad89156a-8c6c-404b-95d3-4ccbe89a0d4f%2FLE_Obi-Wan_Kenobi_Commander_Expansion.png?v=1616094800532",
@@ -17,6 +8,16 @@
       "job":"Jedi",
       "city":"Stewjon",
       "mates":100
+      
+    },
+    {
+       "name":"Vader",
+      "fullname":"Darth Vader",
+      "image":"https://cdn.glitch.com/ad89156a-8c6c-404b-95d3-4ccbe89a0d4f%2Fdownload%20(3).jfif?v=1616095121138",
+      "joined":2016,
+      "job":"Sith Lord",
+      "city":"Death Star",
+      "mates":45
     },
     {
       "name":"Yoda",
