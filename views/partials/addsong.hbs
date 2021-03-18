@@ -1,12 +1,12 @@
-<form class="ui stacked segment form" action="/playlist/{{playlist.id}}/addsong" method="POST">
+<form class="ui stacked segment form" action="/movies/{{movies.id}}/addfilm" method="POST">
   <div class="four fields">
     <div class="field">
       <label for="title">Title</label>
       <input placeholder="Title" type="text" name="title" autofocus required>
     </div>
     <div class="field">
-      <label for="artist">Artist</label>
-      <input placeholder="Artist" type="text" name="artist" required>
+      <label for="director">Director</label>
+      <input placeholder="Director" type="text" name="director" required>
     </div>
     <div class="field">
       <label for="genre">Genre</label>
@@ -17,5 +17,5 @@
       <input placeholder="Duration" type="text" name="duration" required>
     </div>
   </div>
-  <button class="ui blue submit button">Add Song</button>
+  <button class="ui blue submit button">Add Film</button>	
 </form>

@@ -18,7 +18,7 @@ const dashboard = {
     // create view data object (contains data to be sent to the view e.g. page title)
     const viewData = {
       title: 'Movies App Dashboard',
-      movies: moviesStore.getAllMoviess(),
+      movies: moviesStore.getAllMovies(),
     };
     
     // render the dashboard view and pass through the data
