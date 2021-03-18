@@ -8,7 +8,7 @@ const moviesStore = {
   store: new JsonStore('./models/movies-store.json', { moviesCollection: [] }),
   collection: 'moviesCollection',
 
-  getAllMoviess() {
+  getAllMovies() {
     return this.store.findAll(this.collection);
   },
 
@@ -24,8 +24,8 @@ const moviesStore = {
     const movies = this.getMovies(id);
     this.store.remove(this.collection, movies);
   },
-
-  removeAllMoviess() {
+  
+  removeAllMovies() {
     this.store.removeAll(this.collection);
   },
 
