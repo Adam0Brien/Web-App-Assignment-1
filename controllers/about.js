@@ -25,4 +25,4 @@ const about = {
 };
 
 // export the about module
-module.exports = about;
+module.exports = about; 

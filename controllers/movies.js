@@ -27,7 +27,7 @@ const movies = {
     const newFilm = {
       id: uuid(),
       title: request.body.title,
-      directors: request.body.directors,
+      director: request.body.director,
       genre: request.body.genre,
       duration: request.body.duration
     };
@@ -40,7 +40,7 @@ const movies = {
     logger.debug("updating film " + filmId);
     const updatedFilm = {
       title: request.body.title,
-      directors: request.body.directors,
+      director: request.body.director,
       genre: request.body.genre,
       duration: request.body.duration
     };

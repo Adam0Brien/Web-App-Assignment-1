@@ -37,6 +37,7 @@ const dashboard = {
     const newMovies = {
       id: uuid(),
       title: request.body.title,
+      director: request.body.director,
       duration: request.body.duration,
       films: [],
     };
