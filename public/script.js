@@ -46,8 +46,13 @@ function getRating() {
   }
 }
 
-$('.autumn.leaf')
+$('.centered.cards')  
   .transition('slide left')
 ;
+
+$('.centered.cards')  
+  .transition('slide right')
+;
+
 
 //update test
