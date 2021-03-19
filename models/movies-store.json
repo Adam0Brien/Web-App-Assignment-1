@@ -57,25 +57,10 @@
       ]
     },
     {
-      "id": "181abf01-0284-4b8b-81b0-ed7be798c313",
-      "title": "test",
-      "duration": "4",
-      "films": [
-        {
-          "id": "8e280723-aa45-405f-acdc-fd1186161eb6",
-          "title": "Test No.1",
-          "director": "a",
-          "genre": "test",
-          "duration": "111"
-        },
-        {
-          "id": "937739ac-11b3-47df-b14d-26b61e44dcce",
-          "title": "Movies",
-          "director": "test",
-          "genre": "test",
-          "duration": "4"
-        }
-      ]
+      "id": "51f20d60-e24c-4f70-a5af-fbb3ce2d3269",
+      "title": "Test No.1",
+      "duration": "124",
+      "films": []
     }
   ]
 }
