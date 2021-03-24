@@ -27,40 +27,6 @@
           "duration": "136"
         }
       ]
-    },
-    {
-      "id": "02",
-      "title": "Star Wars Prequel Trilogy",
-      "duration": 421,
-      "films": [
-        {
-          "id": "07",
-          "title": "The Phantom Menace",
-          "director": "George Lucas",
-          "genre": "Sci Fi",
-          "duration": 133
-        },
-        {
-          "id": "08",
-          "title": "Attack of the Clones",
-          "director": "George Lucas",
-          "genre": "Sci Fi",
-          "duration": 142
-        },
-        {
-          "id": "09",
-          "title": "Revenge of the Sith",
-          "director": "George Lucas",
-          "genre": "Sci Fi",
-          "duration": 146
-        }
-      ]
-    },
-    {
-      "id": "51f20d60-e24c-4f70-a5af-fbb3ce2d3269",
-      "title": "Test No.1",
-      "duration": "124",
-      "films": []
     }
   ]
 }
