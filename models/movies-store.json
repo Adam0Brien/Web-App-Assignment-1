@@ -27,6 +27,34 @@
           "duration": "136"
         }
       ]
+    },
+    {
+      "id": "9e25f692-b9b0-4945-b437-6574bae2ce80",
+      "title": "Star Wars Prequel Trilogy",
+      "duration": "421",
+      "films": [
+        {
+          "id": "5e114110-0d4a-42ab-8d9d-6e8f6625ad85",
+          "title": "The Phantom Menace",
+          "director": "George Lucas",
+          "genre": "Sci Fi",
+          "duration": "133"
+        },
+        {
+          "id": "ee82c98c-a3ab-4337-b974-da7b059bb8cf",
+          "title": "Attack of the Clones",
+          "director": "George Lukas",
+          "genre": "Sci Fi",
+          "duration": "142"
+        },
+        {
+          "id": "6f64f545-c039-4bf2-9286-70063e3c393a",
+          "title": "Revenge of the Sith",
+          "director": "George Lukas",
+          "genre": "Sci Fi",
+          "duration": "140"
+        }
+      ]
     }
   ]
 }
