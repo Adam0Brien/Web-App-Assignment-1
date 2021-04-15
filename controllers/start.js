@@ -2,7 +2,7 @@
 
 // import all required modules
 const logger = require('../utils/logger');
-const playlistStore = require('../models/playlist-store.js');
+const moviesStore = require('../models/movies-store.js');
 
 // create start object
 const start = {	
@@ -12,6 +12,20 @@ const start = {
     
     // display confirmation message in log
     logger.info('start rendering');
+    
+    
+    
+    // app statistics calculations
+
+const movies = moviesStore.getMovies();
+
+let numMovies = movies.length();
+
+let numFilms = 0;
+
+for (let item of movies) {
+    numFilms += item.film.length;
+}
     
     // create view data object (contains data to be sent to the view e.g. page title)
     const viewData = {
