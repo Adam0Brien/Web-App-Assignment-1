@@ -1,48 +1,34 @@
-<table class="ui fixed striped table">
+<table class="ui fixed striped inverted table">
   <thead>
     <tr>
-      <th class="four wide">Film</th>
-      <th class="four wide">Director</th>
-      <th class="three wide">Genre</th>
-      <th class="three wide">Duration</th>
-      <th class="one wide"> </th>
-      <th class="one wide"> </th>
+      <th>Film</th>
+      <th>Director</th>
+      <th>Genre</th>
+      <th>Duration</th>
+      <th> </th>
     </tr>
   </thead>
-<tbody>
-    {{#each playlist.songs}}
-    <form class = "ui stacked segment form" action="/playlist/{{../playlist.id}}/updateflm/{{id}}" method="POST">
-    <tr class="fields">
-      <td class="field">
-        <span class="ui input">
-         <input type="text" name="title" autofocus required title = "Please include a valid Title" placeholder="Title" value = "{{title}}">
-        </span>
-      </td>
-      <td class="field">
-        <span class="ui input">
-          <input type="text" name="artist" required title = "Please include a valid Artist" placeholder="Artist" value = "{{artist}}">
-        </span>
-      </td>
-      <td class="field">
-        <span class="ui input">
-          <input type="text" name="genre" autofocus required title = "Please include a valid Genre" placeholder="Genre" value = "{{genre}}">         
-        </span>
-      </td>
-      <td class="field">
-        <span class="ui input">
-          <input type="text" name="duration" required title = "Please enter a valid duration" placeholder="Duration" value = "{{duration}}">
-        </span>
-      </td>
-      <td class="center aligned">
-        <button class="ui submit icon button"><i class="icon pencil alternate"></i></button>
-      </td>
-      <td class="center aligned">
-        <a href="/playlist/{{../playlist.id}}/deletesong/{{id}}" class="ui icon button delsong">
-          <i class="icon trash"></i>
-        </a>
-      </td>
-    </tr>
-    </form> 
+  <tbody>
+    {{#each movies.films}}
+      <tr>
+        <td>
+          {{title}}
+        </td>
+        <td>
+          {{director}}
+        </td>
+        <td>
+          {{genre}}
+        </td>
+        <td>
+          {{duration}}
+        </td>
+        <td>
+          <a href="/movies/{{../movies.id}}/deletefilm/{{id}}" class="ui icon button">
+            <i class="icon trash"></i>
+          </a>
+        </td>
+      </tr>
     {{/each}}
   </tbody>
 </table>
