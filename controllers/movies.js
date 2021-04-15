@@ -46,6 +46,20 @@ const movies = {
     };
     moviesStore.editFilm(moviesId, filmId, updatedFilm);
     response.redirect('/movies/' + moviesId);
+  },
+  
+  updateSong(request, response) {
+    const playlistId = request.params.id;
+    const songId = request.params.songid;
+    logger.debug("updating song " + songId);
+    const updatedSong = {
+      Film: request.body.Film,
+      Director: request.body.Director,
+      Genre: request.body.Genre,
+      Duration: request.body.Duration
+    };
+    moviesStore.editFlim(moviesId, filmId, updatedFilm);
+    response.redirect('/,ovies/' + playlistId);
   }
 };
 

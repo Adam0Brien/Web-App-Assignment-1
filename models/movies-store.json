@@ -25,6 +25,13 @@
           "director": "Richard Marquand",
           "genre": "Sci Fi",
           "duration": "136"
+        },
+        {
+          "id": "9b68a2fc-536d-4072-9ea7-0c56ad9ae2c1",
+          "title": "Star Wars Episode 4",
+          "director": "test",
+          "genre": "test",
+          "duration": "4"
         }
       ]
     },

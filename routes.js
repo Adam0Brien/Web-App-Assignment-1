@@ -22,6 +22,8 @@ router.post('/movies/:id/addfilm', movies.addFilm);
 router.get('/dashboard/deletemovies/:id', dashboard.deleteMovies);
 router.post('/dashboard/addmovies', dashboard.addMovies);
 
+router.post('/movies/:id/updatefilm/:filmid', movies.updateFilm);
+
 // export router module
 module.exports = router;
 
