@@ -2,6 +2,7 @@
 
 // import all required modules
 const logger = require('../utils/logger');
+const playlistStore = require('../models/playlist-store.js');
 
 // create start object
 const start = {	
