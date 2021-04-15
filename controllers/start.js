@@ -15,17 +15,7 @@ const start = {
     
     
     
-    // app statistics calculations
 
-const movies = moviesStore.getMovies();
-
-let numMovies = movies.length();
-
-let numFilms = 0;
-
-for (let item of movies) {
-    numFilms += item.film.length;
-}
     
     // create view data object (contains data to be sent to the view e.g. page title)
     const viewData = {
