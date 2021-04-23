@@ -1,4 +1,4 @@
-2tgh{
+{
   "moviesCollection": [
     {
       "id": "01",
@@ -62,6 +62,18 @@
           "duration": "140"
         }
       ]
+    },
+    {
+      "id": "5aabd19b-02d7-4468-a01d-b71c92ff9450",
+      "title": "Star Wars Episode 4",
+      "duration": "124",
+      "films": []
+    },
+    {
+      "id": "95fef6dd-2617-4805-9b5a-6bacd26df0c2",
+      "title": "Star Wars Episode 4",
+      "duration": "124",
+      "films": []
     }
   ]
 }
